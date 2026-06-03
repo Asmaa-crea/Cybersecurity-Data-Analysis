@@ -1,13 +1,13 @@
-# Cybersecurity Traffic Data Analysis
+# Cybersecurity Data Analytics & Machine Learning Pipeline
 
 ## Project Overview
-This project focuses on the **Data Preprocessing** and **Exploratory Data Analysis (EDA)** of network traffic logs. The goal is to clean synthetic cyber attack datasets and extract meaningful insights regarding traffic distributions and malicious behavior.
+An end-to-end AI/ML project that processes raw, structured network traffic logs, cleans anomalies, and utilizes Machine Learning and Deep Learning models to classify cyber attacks (Normal, Malicious, Suspicious).
 
-## Key Features
-* **Data Cleaning:** Handled missing categorical values (`Protocol`) and filled numerical gaps using median imputation.
-* **Outlier Detection:** Filtered and corrected anomalous packet sizes exceeding theoretical network limits (65,535 bytes).
-* **Data Visualization:** Developed statistical plots using `Matplotlib` and `Seaborn` to analyze the distribution of Normal, Malicious, and Suspicious traffic.
+## Key Features & Workflow
+1. **Data Preprocessing (Pandas/NumPy):** Handled missing protocol entries and eliminated data outliers in packet sizes.
+2. **Exploratory Data Analysis (Matplotlib/Seaborn):** Visualized distribution and patterns of network traffic types.
+3. **Machine Learning (Scikit-learn):** Implemented feature encoding and trained a Decision Tree Classifier.
+4. **Deep Learning (TensorFlow):** Developed a Sequential Neural Network (Dense layers with ReLU & Softmax) for multi-class classification.
 
 ## Tech Stack
-* **Language:** Python
-* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
+* Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow.
